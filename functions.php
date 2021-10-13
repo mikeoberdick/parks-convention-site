@@ -31,3 +31,21 @@ function add_child_theme_textdomain() {
     load_child_theme_textdomain( 'understrap-child', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
+
+//Scripts
+include("functions/scripts.php");
+
+//Custom Post Types
+include("functions/custom-post-types.php");
+
+//Custom Thumbnails
+include("functions/custom-thumbs.php");
+
+//Custom Functions
+include("functions/custom-functions.php");
+
+//Widgets Functionality
+include("functions/widgets.php");
+
+//Admin Modifications
+include("functions/admin-modifications.php");

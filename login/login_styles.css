@@ -1,0 +1,14 @@
+.login h1 a {
+	background-image: url(/wp-content/themes/parks-convention-site/login/login.png) !important;
+	width: 320px !important;
+	height: 94px !important;
+	-webkit-background-size: inherit !important; }
+
+.login form {
+	background: #dedede !important;
+	border: 1px solid #000000 !important;
+}
+
+.login #backtoblog a, .login #nav a {
+	color: #000 !important;
+}
